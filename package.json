@@ -1,0 +1,30 @@
+{
+  "name": "stage-parking-page",
+  "version": "1.0.0",
+  "description": "Parking page for the STAGE project",
+  "main": "public/build/index.html",
+  "scripts": {
+    "build": "postcss src/assets/css/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashsway/stage-parking-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/yashsway/stage-parking-page/issues"
+  },
+  "homepage": "https://github.com/yashsway/stage-parking-page#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.2",
+    "autoprefixer": "^10.2.4",
+    "postcss-cli": "^8.3.1",
+    "postcss-custom-properties": "^11.0.0",
+    "postcss-import": "^14.0.0",
+    "postcss-nesting": "^7.0.1",
+    "tailwindcss": "^2.0.3"
+  }
+}

@@ -1,0 +1,21 @@
+# compiled output
+/public
+/dist
+/tmp
+/out-tsc
+
+# IDEs and editors
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
