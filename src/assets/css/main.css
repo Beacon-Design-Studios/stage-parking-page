@@ -1,0 +1,19 @@
+:root {
+  --red-default: #C32B3E;
+  --red-light: #FB0E59;
+  --red-lighter: #FD9BBA;
+}
+
+::selection {
+  color: white;
+  background-color: var(--red-default);
+}
+
+
+.stage-logo {
+  width: 500px;
+}
+
+.stage-hero {
+  min-height: 100vh;
+}
