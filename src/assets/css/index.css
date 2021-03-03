@@ -1,2 +1,11 @@
-@import './tailwind.css';
-@import './main.css';
+@import './base.css';
+
+.stage-logo {
+  width: 500px;
+}
+
+.home {
+  & .hero {
+    min-height: 100vh;
+  }
+}

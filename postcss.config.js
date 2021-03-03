@@ -1,7 +1,6 @@
 const postcssImport = require('postcss-import');
 const tailwindcss = require('tailwindcss');
 const autoprefixer = require('autoprefixer');
-const purgecss = require('@fullhuman/postcss-purgecss');
 const postcssFontMagician = require('postcss-font-magician');
 const postcssUrl = require('postcss-url');
 const postcssNesting = require('postcss-nesting');
