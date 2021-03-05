@@ -5,23 +5,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cahoots Theatre | We're relaunching!</title>
+  <!-- temporary no-index till site is up on actual domain -->
+  <meta name="robots" content="noindex">
+  <meta name="description" content="Cahoots Theatre is home for artists on the edge. The Theatre was the first professional company in Canada with a mandate to present culturally inclusive work of the highest artistic calibre." />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@CahootsTheatre">
+  <meta name="twitter:title" content="Cahoots Theatre | We're relaunching!">
+  <meta name="twitter:description" content="Page description less than 200 characters">
+  <meta name="twitter:creator" content="@CahootsTheatre">
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Cahoots Theatre | We're relaunching!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://cahoots.ca/" />
+  <meta property="og:description" content="Cahoots Theatre is a home for artists on the edge. The Theatre was the first professional company in Canada with a mandate to present culturally inclusive work of the highest artistic calibre." />
+  <meta property="og:locale" content="en_CA" />
+  <meta property="fb:admins" content="CahootsTheatre" />
   <link rel="stylesheet" href="/assets/css/index.css">
 </head>
 
 <body class="home">
-    <header class="bg-gradient-to-b from-paper-light to-red-lightest">
+    <header class="bg-gradient-to-b from-paper-light via-paper via-red-lightest to-red">
       <div class="container mx-auto">
         <section class="grid grid-cols-5 grid-rows-3 grid-flow-col gap-1.5 relative hero">
           <div class="col-span-5 row-start-2">
-            <img class="my-0 mx-auto stage-logo" src="/assets/images/cahoots_logo_red.png" alt="Cahoots Theatre Company - logo">
+            <img class="my-0 mx-auto w-9/12 md:w-1/4" src="/assets/images/cahoots_logo_red.png" alt="Cahoots Theatre Company - logo">
             <h2 class="text-center font-sans text-4xl text-red mt-4 mb-20">Theatre Company</h2>
           </div>
           <h3 class="row-start-1 col-start-1 text-center font-sans p-5 text-lg">Home for Artists on the Edge</h3>
-          <p class="row-start-1 col-start-5 text-center font-sans p-5 text-lg">Proudly based in Toronto</p>
+          <h3 class="row-start-1 col-start-5 text-center font-sans p-5 text-lg">Proudly based in Toronto</h3>
         </section>
       </div>
     </header>
-    <main class="bg-red-lightest">
+    <main class="bg-red">
       <div class="container mx-auto relative">
         <section class="grid grid-cols-5 absolute -top-44">
           <div class="col-start-2 col-span-3 row-start-3">
@@ -33,6 +48,20 @@
         </section>
         <section class="grid grid-cols-5 pt-48">
           <div class="col-start-2 col-span-3 row-start-3">
+            <div class="stage bg-paper-light rounded shadow p-12 leading-relaxed mb-12">
+              <h3 class="text-4xl mb-8">Deaf Artists and Theatres Toolkit</h3>
+              <p class="text-lg font-serif mb-8">Some writeup.</p>
+              <button class="flex items-center text-lg py-2 px-4 mb-4 rounded bg-red active:bg-red-dark active:ring-2 active:ring-red-lighter hover:bg-red-dark text-white">Check out the DATT<svg class="ml-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="24" height="24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+</svg></button>
+            </div>
+            <div class="stage bg-paper-light rounded shadow p-12 leading-relaxed mb-12">
+              <h3 class="text-4xl mb-8">Support Us</h3>
+              <p class="text-lg font-serif mb-8">Some writeup</p>
+              <button class="flex items-center text-lg py-2 px-4 mb-4 rounded bg-red active:bg-red-dark active:ring-2 active:ring-red-lighter hover:bg-red-dark text-white">Donate<svg class="ml-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="24" height="24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+</svg></button>
+            </div>
             <div class="stage bg-paper-light rounded shadow p-12 leading-relaxed mb-12">
               <h3 class="text-4xl mb-10">Have Mail?</h3>
               <div class="mb-8 font-serif text-lg">
@@ -58,7 +87,7 @@
                 <label class="block text-xl">Email Address</label>
                 <input type="email" class="mb-4 mt-0 block w-full text-lg px-0.5 border-0 border-b-2 border-gray-200 focus:ring-0 focus:border-black" placeholder="you@example.com" />
                 <button class="py-2 px-4 mb-4 rounded bg-red active:bg-red-dark active:ring-2 active:ring-red-lighter hover:bg-red-dark text-white">Subscribe</button>
-                <p class="text-xs">By subscribing you agree to the terms of our <a class="underline text-red visited:text-red-darker" href="privacy-policy.html">Privacy Policy</a></p>
+                <p class="text-sm">By subscribing you agree to the terms of our <a class="underline text-red visited:text-red-darker" href="privacy-policy.html">Privacy Policy</a></p>
               </div>
             </div>
           </div>
