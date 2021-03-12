@@ -1,2 +1,10 @@
 @import './tailwind.css';
 @import './shared.css';
+
+.text-name {
+  @apply border-b-2 border-red-dark px-1 bg-red-100 italic;
+}
+
+.text-production {
+  @apply px-1 bg-yellow-100;
+}
