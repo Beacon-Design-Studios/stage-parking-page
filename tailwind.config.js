@@ -5,7 +5,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      sans: ['Brandon Grotesque', 'Helvetica', 'sans-serif'],
+      sans: ['Brandon Grotesque', 'Lato', 'Helvetica', 'sans-serif'],
       serif: ['Crimson Text', 'Arial', 'serif'],
     },
     extend: {
