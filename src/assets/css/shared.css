@@ -8,3 +8,27 @@
   color: white;
   background-color: var(--red-default);
 }
+
+.text-name {
+  @apply border-b-2 border-red-dark px-1 bg-red-100 italic;
+}
+
+.text-production {
+  @apply px-1 border-b-2 border-red-dark border-dotted;
+}
+
+.text-highlight {
+  @apply px-1 bg-yellow-100;
+}
+
+.field-required {
+  &::after {
+    content: '*';
+    @apply text-red;
+  }
+}
+
+/* need to state explicitly for font magician to work */
+body {
+  font-family: 'Crimson Text', 'Arial', serif;
+}

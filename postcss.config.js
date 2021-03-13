@@ -13,10 +13,15 @@ module.exports = (ctx) => ({
     tailwindcss,
     postcssNesting,
     postcssCustomProperties,
-    postcssUrl({
-      url: 'copy',
-      assetsPath: 'public/assets/images',
-      useHash: true,
+    postcssFontMagician({
+      foundries: ['google'],
+      variants: {
+        'Crimson Text': {
+          '400': [],
+          '400 italic': [],
+          '700': []
+        }
+      },
     }),
     autoprefixer,
     ctx.env === 'production' ? cssnano : false,

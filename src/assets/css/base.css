@@ -1,21 +1,3 @@
+@import './fonts.css';
 @import './tailwind.css';
 @import './shared.css';
-
-.text-name {
-  @apply border-b-2 border-red-dark px-1 bg-red-100 italic;
-}
-
-.text-production {
-  @apply px-1 border-b-2 border-red-dark border-dotted;
-}
-
-.text-highlight {
-  @apply px-1 bg-yellow-100;
-}
-
-.field-required {
-  &::after {
-    content: '*';
-    @apply text-red;
-  }
-}
