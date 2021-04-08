@@ -8,4 +8,10 @@
   & .logo {
     max-width: 500px;
   }
+
+  & .footer-sponsor-logo {
+    width: 200px;
+    filter: brightness(0) invert(1);
+    margin-left: 8px;
+  }
 }
