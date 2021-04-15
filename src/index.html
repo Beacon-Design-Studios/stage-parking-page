@@ -10,18 +10,16 @@
       type="image/x-icon"
     />
     <link rel="apple-touch-icon" href="/assets/images/cahoots-favicon.ico" />
-    <!-- temporary no-index till site is up on actual domain -->
-    <meta name="robots" content="noindex" />
     <meta
       name="description"
-      content="Cahoots Theatre is home for artists on the edge. The Theatre was the first professional company in Canada with a mandate to present culturally inclusive work of the highest artistic calibre."
+      content="Cahoots Theatre is home from artists on the edge. Cahoots was the first professional company in Canada with a mandate to present culturally inclusive work of the highest artistic calibre."
     />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@CahootsTheatre" />
     <meta name="twitter:title" content="Cahoots Theatre | We're relaunching!" />
     <meta
       name="twitter:description"
-      content="Cahoots Theatre is a home for artists on the edge."
+      content="Cahoots Theatre is home from artists on the edge. Cahoots was the first professional company in Canada with a mandate to present culturally inclusive work of the highest artistic calibre."
     />
     <meta name="twitter:creator" content="@CahootsTheatre" />
     <!-- Open Graph data -->
@@ -30,11 +28,19 @@
     <meta property="og:url" content="https://cahoots.ca/" />
     <meta
       property="og:description"
-      content="Cahoots Theatre is a home for artists on the edge. The Theatre was the first professional company in Canada with a mandate to present culturally inclusive work of the highest artistic calibre."
+      content="Cahoots Theatre is home from artists on the edge. Cahoots was the first professional company in Canada with a mandate to present culturally inclusive work of the highest artistic calibre."
     />
     <meta property="og:locale" content="en_CA" />
     <meta property="fb:admins" content="CahootsTheatre" />
     <link rel="stylesheet" type="text/css" href="/assets/css/index.css" />
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56146728-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-56146728-1');
+    </script>
   </head>
 
   <body class="home">
@@ -442,7 +448,7 @@
     </main>
     <footer class="bg-red py-10 text-paper-light">
       <div class="container mx-auto">
-        <div class="w-full flex justify-center items-center mb-4">
+        <div class="w-full flex flex-wrap justify-center items-center mb-4">
           <a
             class="m-2"
             rel="noopener noreferrer"
@@ -492,14 +498,14 @@
             />
           </a>
         </div>
-        <div class="w-full flex justify-center items-center mb-8">
+        <div class="w-full flex flex-wrap justify-center items-center mb-8">
           <img
-            class="sm:w-3/4 lg:w-1/2"
+            class="w-full lg:w-1/2"
             src="/assets/images/funders-sponsors-footer.png"
             alt="Our main sponsors: Canada Council for the Arts, Ontario Arts Council and Toronto Arts Council, funded by the City of Toronto."
           />
           <img
-            class="w:3/4 footer-sponsor-logo"
+            class="w-2/6 lg:w-1/2 footer-sponsor-logo"
             src="/assets/images/metcalf-foundation-logo-color.png"
             alt="Metcalf Foundation"
             />
