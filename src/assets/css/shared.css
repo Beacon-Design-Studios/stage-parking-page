@@ -17,6 +17,18 @@
   @apply px-1 bg-yellow-100;
 }
 
+.text-link {
+  @apply underline text-red visited:text-red-darker;
+}
+
+.text-email {
+  @apply underline text-red;
+}
+
+.button--primary {
+  @apply inline-flex items-center text-lg py-3 px-5 rounded bg-red active:bg-red-dark active:ring-2 active:ring-red-lighter hover:bg-red-dark text-white;
+}
+
 .field-required {
   &::after {
     content: '*';
