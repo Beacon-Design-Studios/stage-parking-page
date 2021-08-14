@@ -44,10 +44,6 @@
   filter: saturate(0%);
 }
 
-.icon-grayscale {
-
-}
-
 /* need to state explicitly for font magician to work */
 body {
   font-family: 'Crimson Text', 'Georgia', 'Arial', serif;

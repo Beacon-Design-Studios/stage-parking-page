@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cahoots Theatre | Privacy Policy</title>
+    <title>Events | Cahoots Theatre</title>
     <link
       rel="icon"
       href="/assets/images/cahoots-favicon.ico"
@@ -33,11 +33,11 @@
     />
     <meta property="og:locale" content="en_CA" />
     <meta property="fb:admins" content="CahootsTheatre" />
-    <link rel="stylesheet" type="text/css" href="/assets/css/privacy.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/events.css" />
+    <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
   </head>
-
   <body>
-    <header class="bg-gradient-to-b from-paper-light to-red-lightest">
+    <header class="bg-gradient-to-b from-paper-light to-red-lightest" @click="alert('Hello World!')">
       <div class="container mx-auto">
         <section
           class="flex items-center sm:justify-between flex-col sm:flex-row p-4"
@@ -228,9 +228,20 @@
                 src="/assets/images/2021-event-supermodel.png"
                 alt="Supermodel | Cahoots Summertime 2021"
               />
+              <div class="mb-10">
+                <p class="mb-4">It is an insidious brand of racism, the reverberations of which are resonant and complex. Supermodel, a rumination by East Asian-Canadian theatre artists, is a poignant & provocative interrogation of the myth of the model minority. </p>
+                <a class="button--primary mb-4" href="https://app.simplyk.io/en/ticketing/d1ad257d-72e7-4122-9ad9-cd404cfaadef" target="_blank">Reserve my Spot</a>
+                <div class="flex items-center">
+                  <p class="font-sans text-gray-700">Share this event:</p>
+                  <a class="mr-2 inline-flex items-center" href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                  </a>
+                  <a class="mr-2 inline-flex items-center" href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                  </a>
+                </div>
+              </div>
               <hr class="mt-4 mb-8">
-              <p class="mb-4">It is an insidious brand of racism, the reverberations of which are resonant and complex. Supermodel, a rumination by East Asian-Canadian theatre artists, is a poignant & provocative interrogation of the myth of the model minority. </p>
-              <a class="button--primary mt-4 mb-10" href="https://app.simplyk.io/en/ticketing/d1ad257d-72e7-4122-9ad9-cd404cfaadef" target="_blank">Reserve my Spot</a>
               <h3 class="font-sans text-1xl md:text-2xl text-yellow-600 mb-2">Featuring</h3>
               <ul class="flex flex-wrap mb-2">
                 <li class="text-name inline-block mr-2 mb-2">Byron Abalos</li>
@@ -281,17 +292,28 @@
                 src="/assets/images/2021-event-crossing-gibraltar.png"
                 alt="Crossing Gibraltar | Cahoots Summertime 2021"
               />
-              <hr class="mt-4 mb-8">
-              <p class="mb-4">
-                Culture is a story. Culture is made through storytelling. To change the culture is to tell a different story.  Storytellers are historians. Values, morals, ethics, and politics are often passed down through the stories we are told and share with others.  Our cultures and stories are inherently linked to the ancestral lands we come from, as well as the lands that we are on. When we are displaced and dispossessed, we are robbed of our rich histories and our abilities to recognize our connections to the land.  This is the story of many who leave their native soil.
-              </p>
-              <p class="mb-4">
-                Crossing Gibraltar brought together ten dynamic creators together for a 15-week artistic exploration of relationships to land and Indigenous histories, the politics of translation and political speech, articulations of race and class, and storytelling through embodied cultural practices.  Now, they invite us in.
-              </p>
-              <p class="mb-4">
-                Join us on Tuesday August 17th at 7:30pm for Crossing Gibraltar Presents -- a sharing of work by brilliant immigrant, refugee, and newcomer artists.
-              </p>
-              <a class="button--primary mt-4 mb-10" href="https://app.simplyk.io/en/ticketing/7741a756-6dfc-4fb9-a206-c7ac2b113a34" target="_blank">Reserve my Spot</a>
+              <div class="mb-10">
+                <p class="mb-4">
+                  Culture is a story. Culture is made through storytelling. To change the culture is to tell a different story.  Storytellers are historians. Values, morals, ethics, and politics are often passed down through the stories we are told and share with others.  Our cultures and stories are inherently linked to the ancestral lands we come from, as well as the lands that we are on. When we are displaced and dispossessed, we are robbed of our rich histories and our abilities to recognize our connections to the land.  This is the story of many who leave their native soil.
+                </p>
+                <p class="mb-4">
+                  Crossing Gibraltar brought together ten dynamic creators together for a 15-week artistic exploration of relationships to land and Indigenous histories, the politics of translation and political speech, articulations of race and class, and storytelling through embodied cultural practices.  Now, they invite us in.
+                </p>
+                <p class="mb-4">
+                  Join us on Tuesday August 17th at 7:30pm for Crossing Gibraltar Presents -- a sharing of work by brilliant immigrant, refugee, and newcomer artists.
+                </p>
+                <a class="button--primary mt-4" href="https://app.simplyk.io/en/ticketing/7741a756-6dfc-4fb9-a206-c7ac2b113a34" target="_blank">Reserve my Spot</a>
+                <div class="flex items-center mt-4">
+                  <p class="font-sans text-gray-700">Share this event:</p>
+                  <a class="mr-2 inline-flex items-center" href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                  </a>
+                  <a class="mr-2 inline-flex items-center" href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                  </a>
+                </div>
+              </div>
+              <hr class="mb-8">
               <h3 class="font-sans text-1xl md:text-2xl text-yellow-600">Program Facilitation By</h3>
               <p class="text-sans"><span class="text-name">Yolanda Bonnell</span> and <span class="text-name">Shaista Latif</span></p>
               <h3 class="font-sans text-1xl md:text-2xl text-yellow-600 mt-4 mb-2">Featuring</h3>
@@ -389,5 +411,11 @@
         </div>
       </div>
     </footer>
+    <script type="text/javascript">
+      function handleCopyLink(e) {
+        alert(e);
+        navigator.clipboard.writeText($refs.content.value);
+      }
+    </script>
   </body>
 </html>
